@@ -23,6 +23,7 @@ module.exports = (db, updateAppointment) => {
           {}
         )
       );
+      res.sendStatus(200)
     });
   });
 

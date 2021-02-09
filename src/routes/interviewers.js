@@ -9,6 +9,7 @@ module.exports = db => {
           {}
         )
       );
+      res.sendStatus(200)
     });
   });
 

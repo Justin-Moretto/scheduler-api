@@ -18,6 +18,7 @@ module.exports = db => {
     `
     ).then(({ rows: days }) => {
       response.json(days);
+      res.sendStatus(200)
     });
   });
 
